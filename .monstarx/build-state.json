@@ -1,0 +1,14 @@
+{
+  "stage": "build_done",
+  "updatedAt": "2026-06-18T07:58:31.186Z",
+  "completed_phases": [
+    "data",
+    "ui-shell",
+    "ui-modules:bookings",
+    "ui-modules:tickets",
+    "ui-modules:venues",
+    "ui-modules:events",
+    "ui-modules:settings",
+    "api"
+  ]
+}
