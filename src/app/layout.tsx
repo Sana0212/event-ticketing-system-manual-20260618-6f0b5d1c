@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { SessionProvider } from '@/hooks/useSession';
+import faviconSvg from '@/assets/images/favicon.svg';
 
 const siteName = 'Event & Ticketing System';
 const siteDescription = 'An enterprise web application for hospitality and travel organizations to manage events, venues, tickets, and bookings with role-based access.';
@@ -17,6 +18,9 @@ export const metadata: Metadata = {
     template: `%s | ${siteName}`,
   },
   description: siteDescription,
+  icons: {
+    icon: { url: faviconSvg.src, type: 'image/svg+xml' },
+  },
   openGraph: {
     type: 'website',
     siteName,
